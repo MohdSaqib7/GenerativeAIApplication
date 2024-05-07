@@ -1,0 +1,82 @@
+.App {
+  width:100vw;
+  height: 100vh;
+}
+.header {
+  width:100%;
+  height: 70px;
+  background-color: rgb(5, 114, 150);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.search-area {
+  display: flex;
+  /* margin-bottom: 50px; */
+  justify-content: center;
+}
+.input-area {
+  width:30%;
+  height: 40px;
+  border: 2px solid rgb(104, 103, 103);
+  margin-right: 5px;
+  padding: 2px 8px;
+  font-size: larger;
+  border-radius: 5px;
+}
+.search-button {
+  width:110px;
+  height: 40px;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+  /* background-color: rgb(63, 96, 243); */
+  background-color: rgb(4, 86, 113);
+  color: white;
+  border: none;
+  /* box-shadow: 2px 2px 2px rgb(67, 28, 243); */
+  box-shadow: 2px 2px 2px rgb(4, 86, 113);
+  cursor: pointer;
+}
+.search-button:hover {
+  background-color: whitesmoke;
+  border: 2px solid gray;
+  color:rgb(46, 45, 45);
+  height: 38px;
+  box-shadow: 2px 2px 2px rgb(39, 38, 39);
+}
+
+.contentBox {
+  border: 1px solid rgb(200, 196, 196);
+  width: 530px;
+  height: 300px;
+  box-shadow: 2px 2px 3px rgb(192, 192, 192);
+  padding: 10px 6px;
+  margin: 4% auto;
+  border-radius: 5px;
+}
+.section {
+  display: flex;
+}
+.sectionHead {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color:rgb(1, 42, 11);
+  font-weight: 500;
+  margin-right: 10px;
+}
+.contentBox h4 {
+  text-align: justify;
+  margin-top: 5px;
+  font-size: 12px;
+  color:rgb(7, 92, 131);
+  margin-bottom: 3px;
+}
+
+
